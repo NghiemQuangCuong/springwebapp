@@ -10,9 +10,6 @@ public class Spring5webappApplication {
     public static void main(String[] args) {
         ApplicationContext context =
             SpringApplication.run(Spring5webappApplication.class, args);
-
-        Color color = context.getBean(Color.class);
-        color.doSomething();
     }
 
 }
